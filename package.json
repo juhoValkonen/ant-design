@@ -1,7 +1,7 @@
 {
-  "name": "antd",
+  "name": "antd-with-accessible-tree",
   "version": "4.22.1",
-  "description": "An enterprise-class UI design language and React components implementation",
+  "description": "Custom fork: An enterprise-class UI design language and React components implementation",
   "title": "Ant Design",
   "keywords": [
     "ant",
@@ -14,13 +14,13 @@
     "react-component",
     "ui"
   ],
-  "homepage": "https://ant.design",
+  "homepage": "https://github.com/juhoValkonen/ant-design",
   "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
+    "url": "https://github.com/juhoValkonen/ant-design/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/juhoValkonen/ant-design"
   },
   "license": "MIT",
   "contributors": [
@@ -153,7 +153,7 @@
     "rc-textarea": "~0.3.0",
     "rc-tooltip": "~5.2.0",
     "rc-tree": "~5.6.5",
-    "rc-tree-select": "~5.4.0",
+    "rc-tree-select-accessible": "~5.4.4",
     "rc-trigger": "^5.2.10",
     "rc-upload": "~4.3.0",
     "rc-util": "^5.22.5",
