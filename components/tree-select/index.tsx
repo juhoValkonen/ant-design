@@ -70,6 +70,7 @@ const InternalTreeSelect = <OptionType extends BaseOptionType | DefaultOptionTyp
     size: customizeSize,
     disabled: customDisabled,
     bordered = true,
+    labelInAriaLive,
     className,
     treeCheckable,
     multiple,
@@ -206,6 +207,7 @@ const InternalTreeSelect = <OptionType extends BaseOptionType | DefaultOptionTyp
       switcherIcon={(nodeProps: AntTreeNodeProps) =>
         renderSwitcherIcon(treePrefixCls, switcherIcon, treeLine, nodeProps)
       }
+      labelInAriaLive={labelInAriaLive}
       showTreeIcon={treeIcon as any}
       notFoundContent={mergedNotFound}
       getPopupContainer={getPopupContainer || getContextPopupContainer}
